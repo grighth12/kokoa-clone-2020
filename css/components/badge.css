@@ -1,0 +1,21 @@
+.badge {
+  width: 30px;
+  height: 30px;
+  display: block;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  color: white;
+  font-weight: 600;
+}
+.badge--small {
+  width: 5px;
+  height: 5px;
+}
+.cog-badge {
+  position: absolute;
+  top: 45px;
+  right: 18px;
+}
