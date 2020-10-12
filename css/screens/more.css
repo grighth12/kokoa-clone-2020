@@ -8,6 +8,7 @@
 }
 .more-suggestions__title {
   margin-bottom: 30px;
+  color: var(--green);
 }
 .more-suggestions__icons {
   display: flex;

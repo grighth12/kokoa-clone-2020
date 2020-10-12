@@ -1,6 +1,11 @@
 :root {
-  --yellow: #fae100;
+  --main-color: #263238;
+  --yellow: #ffcb6b;
+  --purple: #b682da;
+  --red: #f07178;
+  --green: #a5e882;
+  --font-color: #b2ccd6;
   --horizontal-space: 25px;
-  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --main-border: 1px solid rgba(165, 232, 130, 0.2);
   --gray: rgba(0, 0, 0, 0.5);
 }

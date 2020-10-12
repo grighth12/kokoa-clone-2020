@@ -8,6 +8,7 @@
 .alt-header__title {
   font-size: 28px;
   font-weight: 600;
+  color: var(--red);
 }
 .alt-header__column {
   width: 33%;
@@ -23,7 +24,13 @@
 .alt-header__column:nth-child(2) {
   text-align: center;
 }
-
+.alt-header__column a {
+  color: var(--yellow);
+}
+.alt-header__column span:first-child {
+  color: var(--purple);
+}
 .alt-header__column span:last-child {
   margin-left: 20px;
+  color: var(--green);
 }

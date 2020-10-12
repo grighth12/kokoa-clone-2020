@@ -2,10 +2,11 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f9f9fa;
+  background-color: #1a2327;
   padding: 20px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
+  z-index: 1;
 }
 .nav__list {
   display: flex;
@@ -13,7 +14,16 @@
 }
 .nav__link {
   position: relative;
-  color: #2e363e;
+  color: #b2ccd6;
+}
+.nav__link img {
+  width: 60px;
+  height: 60px;
+}
+.link__first-char {
+  position: absolute;
+  bottom: 42px;
+  left: 18px;
 }
 @keyframes notificationAnimation {
   0% {
@@ -28,13 +38,13 @@
 }
 .nav__notification {
   position: absolute;
-  left: 15px;
-  bottom: 15px;
+  left: 35px;
+  bottom: 40px;
   animation: notificationAnimation 3s ease-in-out infinite;
 }
 .nav__notification--small {
-  bottom: 30px;
-  left: 35px;
+  bottom: 60px;
+  left: 55px;
 }
 @keyframes appearBtnAnimation {
   from {
@@ -58,4 +68,18 @@
 }
 .nav__btn:last-child {
   animation-delay: 0.9s;
+}
+.nav__link--selected img {
+  transform: scaleY(0.8);
+  position: relative;
+  top: 5px;
+}
+.nav__link--selected .link__first-char {
+  color: #f07178;
+  font-weight: 800;
+  text-shadow: 0px 2px 10px #f07178;
+  transform: scaleY(0.8);
+  bottom: 35px;
+  left: 18px;
+  z-index: 1;
 }

@@ -9,6 +9,7 @@
   background-color: tomato;
   color: white;
   font-weight: 600;
+  z-index: 1;
 }
 .badge--small {
   width: 5px;

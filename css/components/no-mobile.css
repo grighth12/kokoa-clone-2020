@@ -1,4 +1,5 @@
 #no-mobile {
+  display: none;
   position: fixed;
   z-index: 99;
   height: 100vh;
