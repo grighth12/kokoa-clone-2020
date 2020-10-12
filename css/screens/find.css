@@ -62,7 +62,8 @@
   width: 1px;
   height: 15px;
   margin: 0 5px;
-  background-color: var(--gray);
+  background-color: var(--green);
+  opacity: 0.8;
 }
 .open-post__member-status {
   color: #89ddff;
