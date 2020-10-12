@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  animation: fadeIn 0.5s ease-in-out;
 }
 .settings__setting:last-child {
   border: none;
@@ -12,10 +13,12 @@
 .settings__setting i {
   margin-right: 20px;
   font-size: 22px;
+  color: var(--purple);
 }
 .settings__setting-column:last-child {
   opacity: 0.5;
   font-size: 15px;
+  color: #89ddff;
 }
 @keyframes fadeIn {
   from {
@@ -25,7 +28,4 @@
   to {
     opacity: 1;
   }
-}
-.settings__setting {
-  animation: fadeIn 0.5s ease-in-out;
 }
